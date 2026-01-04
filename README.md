@@ -40,20 +40,8 @@ This system allows patients to book appointments online, doctors to manage sched
 
 ## 📁 Project Structure
 
-mediconnect/
-├── mediconnect-backend/
-│ ├── models/
-│ ├── routes/
-│ ├── server.js
-│ └── package.json
-│
-├── mediconnect-frontend/
-│ ├── public/
-│ ├── src/
-│ └── package.json
-│
-├── .gitignore
-└── README.md
+<img width="245" height="352" alt="image" src="https://github.com/user-attachments/assets/aca516e9-9670-4dac-96bf-e8f5e397d285" />
+
 
 ## ⚙️ How to Run the Project
 
@@ -79,11 +67,14 @@ cd mediconnect-frontend
 npm install
 npm start
 
-🌐 Application URLs
+🌐 Application URLs:
 Frontend: http://localhost:3000
 Backend: http://localhost:5001
 
-🔐 Authentication
-Separate login for Admin, Doctor, and Patient
-Role-based dashboards
-Secure API handling using Express and MongoDB
+🔐 Authentication:
+
+-Separate login for Admin, Doctor, and Patient
+
+-Role-based dashboards
+
+-Secure API handling using Express and MongoDB
