@@ -57,20 +57,24 @@ mediconnect/
 
 ## ⚙️ How to Run the Project
 
-1️⃣ Clone the Repository
+1️⃣ Clone the Repository:
+
 git clone https://github.com/Nireeksha027/mediconnect.git
 cd mediconnect
 
-2️⃣ Backend Setup
+2️⃣ Backend Setup:
+
 cd mediconnect-backend
 npm install
 npm run dev
 
 Create a .env file inside mediconnect-backend:
+
 PORT=5001
 MONGO_URI=your_mongodb_connection_string
 
-3️⃣ Frontend Setup
+3️⃣ Frontend Setup:
+
 cd mediconnect-frontend
 npm install
 npm start
