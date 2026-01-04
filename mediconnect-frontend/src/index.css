@@ -1,0 +1,169 @@
+/* ===== RESET & BASE ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* ===== PAGE CENTERING ===== */
+.center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* ===== CARD STRUCTURE ===== */
+.card {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  width: 380px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.wide-card {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* ===== FORM ELEMENTS ===== */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+/* ===== ADMIN FORM GRID ===== */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* ===== BUTTON BASE ===== */
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ===== BUTTON TYPES ===== */
+.primary-btn {
+  background-color: #1976d2;
+  color: white;
+  width: 100%;
+}
+
+.primary-btn:hover {
+  background-color: #155fa0;
+}
+
+.success-btn {
+  background-color: #2e7d32;
+  color: white;
+  padding: 6px 12px;
+}
+
+.success-btn:hover {
+  background-color: #256628;
+}
+
+.danger-btn {
+  width: auto;              /* 🔥 key fix */
+  padding: 6px 16px;
+  font-size: 13px;
+  background-color: #1976d2;   /* same blue for consistency */
+  color: white;
+  border-radius: 6px;
+}
+
+.danger-btn:hover {
+  background-color: #b71c1c;
+}
+
+.back-btn {
+  width: auto;              /* 👈 THIS IS THE KEY */
+  display: inline-block;
+  background-color: #6c757d;
+  color: white;
+  padding: 6px 12px;        /* small, neat size */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+
+.back-btn:hover {
+  background-color: #5a6268;
+}
+
+/* ===== LIST (ADMIN DOCTORS) ===== */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 10px 14px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+/* ===== TABLE (DOCTOR DASHBOARD) ===== */
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.appointment-table th,
+.appointment-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.appointment-table th {
+  background-color: #f1f1f1;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* ===== SEPARATOR ===== */
+hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 25px 0;
+}
