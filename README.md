@@ -1,4 +1,4 @@
-# 🏥 MediConnect – Medical Appointment System (MERN)
+# 🏥 SmartCare – Appointment Management System (MERN)
 
 MediConnect is a MERN stack web application designed to manage medical appointments between **Patients**, **Doctors**, and **Admin** in a simple and organized way.
 
